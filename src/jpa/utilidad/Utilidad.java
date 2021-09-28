@@ -62,7 +62,7 @@ public class Utilidad {
             }
 
             if (!isbn.matches("^[0-9]{13}$")) {
-                throw new MiExcepcion("DEBE INGRESAR 13 DÍGITOS");
+                throw new MiExcepcion("DEBE INGRESAR 13 DÍGITOS!");
             }
         } catch (MiExcepcion e) {
             System.out.println(e.getMessage());
